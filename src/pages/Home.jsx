@@ -20,11 +20,10 @@ export default function Home() {
           return (
             <Link to={`/employee/${employee.id}`}>
               <li>
-                {employee.id}
-                {employee.firstName}
-                {employee.lastName}
+                <br />
+                {employee.firstName} {employee.lastName}
+                <br />
                 {employee.jobTitle}
-                {employee.profileImage}
               </li>
             </Link>
           )
